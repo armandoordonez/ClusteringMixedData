@@ -1,0 +1,66 @@
+# Archivos de datos privados
+*.csv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.db
+*.sqlite
+*.sql
+
+# Notebooks con posible información sensible
+private_*.ipynb
+*_private.ipynb
+*_credentials.ipynb
+
+# Archivos de configuración que puedan contener credenciales
+config.py
+credentials.py
+*.ini
+*.conf
+*.env
+.env
+
+# Archivos de caché y temporales
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de compilación y distribución
+dist/
+build/
+*.egg-info/
+
+# Archivos de registro
+logs/
+*.log
+
+# Archivos específicos de resultados que puedan contener datos sensibles
+plots/
+figures/
+results/
+output/
